@@ -59,7 +59,7 @@ where `tcks` is a list of tickers and `earnings` is a dataframe of earnings date
 Note: Marketwatch does not have filing dates for some stocks that are no longer traded/companies that were acquired/etc.
 
 ## Scraped Data ##
-The Scripts folder contains a Jupyter notebook, `benzinga_scrape.ipynb`, that shows how the headline, price, volume, and earnings dates data might be cleaned and combined. 
+The Scripts folder contains a Jupyter notebook, `benzinga_clean.ipynb`, that shows how the headline, price, volume, and earnings dates data might be cleaned and combined. 
 
 In the Data folder you can also find pre-scraped data from 10/12/2015 - 04/04/2019 using the functions mentioned above. The pre-scraped data includes:
 
