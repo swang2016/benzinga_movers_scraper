@@ -54,7 +54,7 @@ If you already have dates saved and only want to update with more recent data (o
 
 `new_earnings = get_new_earnings_dates(tcks, earnings, '2015-10-12')`
 
-where `tcks` is a list of tickers and `earnings` is a dataframe of earnings dates alraedy saved. `new_earnings` will have the latest earnings dates updated for tickers already saved as well as the entire earnings date history going back to the specified date for tickers not already saved.
+where `tcks` is a list of tickers and `earnings` is a dataframe of earnings dates already saved. `new_earnings` will have the latest earnings dates updated for tickers already saved as well as the entire earnings date history going back to the specified date for tickers not already saved.
 
 Note: Marketwatch does not have filing dates for some stocks that are no longer traded/companies that were acquired/etc.
 
