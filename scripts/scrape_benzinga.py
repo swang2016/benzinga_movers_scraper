@@ -358,6 +358,10 @@ def get_new_benzinga_data(old_data): #gets new data given an df of previous coll
     df = pd.DataFrame(data)
     df['date'] = pd.to_datetime(df.date) - BDay(1) #set to previous business day
     df = df[['date', 'ticker', 'descriptions', 'link']]
+
+    #drop duplicates
+    df = df.drop_duplicates()
+    
     return(df)
 
 #function to get price data and volume data
@@ -488,7 +492,7 @@ def get_earnings_dates(tcks, start_date): #gets earnings report dates given list
 
 
 
-def get_new_earnings_dates(tcks, earnings, start_date): #updates earnings reports dates given list of tickers, old earnings date data, and end date
+def get_new_earnings_dates(tcks, earnings, start_date): #updates earnings reports dates given list of tickers, old earnings date data, and start date
     start_date = pd.to_datetime(start_date)
     fd = pd.DataFrame({'filing_dates':[], 'ticker':[]})
     tcks = set(tcks)
