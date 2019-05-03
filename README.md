@@ -61,7 +61,7 @@ Note: Marketwatch does not have filing dates for some stocks that are no longer 
 ## Scraped Data ##
 The Scripts folder contains a Jupyter notebook, `benzinga_clean.ipynb`, that shows how the headline, price, volume, and earnings dates data might be cleaned and combined. 
 
-In the Data folder you can also find pre-scraped data from 10/12/2015 - 04/04/2019 using the functions mentioned above. The pre-scraped data includes:
+In the Data folder you can also find pre-scraped data from 10/12/2015 - 05/03/2019 using the functions mentioned above. The pre-scraped data includes:
 
 * `stock_headlines.csv`: CSV of headlines, associated tickers, and dates 
 * `stock_prices.csv`: CSV of tickers and their prices for the date range of 10/12/2015 - 04/04/2019
