@@ -11,9 +11,9 @@ This project scrapes descriptions of stock price movements from various Benzinga
 * 10/16/2017 - Present: Biggest Movers From Yesterday 
   * (Example: https://www.benzinga.com/news/19/04/13491633/52-biggest-movers-from-yesterday)
  
-In addition to scraping headlines, additional functions for obtaining historical price and volume data using the IEX API are included.
+In addition to scraping headlines, additional functions for obtaining historical price and volume data using the IEX API are included. Functions for scraping earnings filing dates from Marketwatch are also available.
 
-Lastly, functions for scraping earnings filing dates from Marketwatch are also available.
+Lastly, pre-scraped data as of 05/03/2019 is available in the Data folder.
 
 # Usage Examples #
 Examples of how to use the functions mentioned above are also shown in the Jupyter notebook, `benzinga_scrape.ipynb`, in the Scripts folder.
