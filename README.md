@@ -18,7 +18,7 @@ Lastly, functions for scraping earnings filing dates from Marketwatch are also a
 # Usage Examples #
 Examples of how to use the functions mentioned above are also shown in the Jupyter notebook, `benzinga_scrape.ipynb`, in the Scripts folder.
 
-## Scraping  Descriptions##
+## Scraping  Descriptions ##
 Initial data pull (only goes back to 10/12/2015, can choose to specify more recent dates):
 
 `df = get_initial_biggest_movers_data('October 12, 2015')`
