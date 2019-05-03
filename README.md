@@ -63,10 +63,10 @@ The Scripts folder contains a Jupyter notebook, `benzinga_clean.ipynb`, that sho
 
 In the Data folder you can also find pre-scraped data from 10/12/2015 - 05/03/2019 using the functions mentioned above. The pre-scraped data includes:
 
-* `stock_headlines.csv`: CSV of headlines, associated tickers, and dates 
-* `stock_prices.csv`: CSV of tickers and their prices for the date range of 10/12/2015 - 04/04/2019
-* `stock_volumes.csv`: CSV of tickers and their volumes for the date range of 10/12/2015 - 04/04/2019
-* `filing_dates.csv`: CSV of tickers and their earnings filing dates for the date range of 10/12/2015 - 04/04/2019
+* `stock_headlines.csv`: CSV of descriptions, associated tickers, and dates 
+* `stock_prices.csv`: CSV of tickers and their prices for the date range of 10/12/2015 - 05/03/2019
+* `stock_volumes.csv`: CSV of tickers and their volumes for the date range of 10/12/2015 - 05/03/2019
+* `filing_dates.csv`: CSV of tickers and their earnings filing dates for the date range of 10/12/2015 - 05/03/2019
 * `stock_headlines_cleaned.csv`: `stock_headlines.csv` with additional features generated from `stock_prices.csv` and `stock_volumes.csv`. Example code showing how this file was made is in `benzinga_clean.ipynb` in the Scripts folder.
 
 # Analysis #
