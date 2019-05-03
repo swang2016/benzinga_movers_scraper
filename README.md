@@ -1,6 +1,6 @@
 # Overview #
 
-This project scrapes headlines of stock price movements from various Benzinga's Movers article series (https://www.benzinga.com/movers). The scraper functions pull headlines from the following time periods and article series:
+This project scrapes descriptions of stock price movements from various Benzinga's Movers article series (https://www.benzinga.com/movers). The scraper functions pull descriptions from the following time periods and article series:
 
 * 10/12/2015 - 06/06/2016: Mid-Afternoon Market Update 
   * (Example: https://www.benzinga.com/news/earnings/16/02/6222002/mid-afternoon-market-update-nasdaq-down-over-3-ttm-technologies-shares-g)
@@ -18,17 +18,17 @@ Lastly, functions for scraping earnings filing dates from Marketwatch are also a
 # Usage Examples #
 Examples of how to use the functions mentioned above are also shown in the Jupyter notebook, `benzinga_scrape.ipynb`, in the Scripts folder.
 
-## Scraping Headlines ##
+## Scraping  Descriptions##
 Initial data pull (only goes back to 10/12/2015, can choose to specify more recent dates):
 
 `df = get_initial_biggest_movers_data('October 12, 2015')`
 
 
-If you already have headlines saved and only want to update the data with more recent headlines:
+If you already have descriptions saved and only want to update the data with more recent descriptions:
 
 `new_dat = get_new_benzinga_data(old_dat)`
 
-Where `old_dat` is a dataframe of headlines already saved. `new_dat` will be new headlines retrieved from dates after the most recent headline in `old_dat`.
+Where `old_dat` is a dataframe of descriptions already saved. `new_dat` will be new descriptions retrieved from dates after the most recent description in `old_dat`.
 
 ## Getting Price and Volume Data ##
 Initial data pull (specify how far back you want to go, IEX API only goes back 5 years):
