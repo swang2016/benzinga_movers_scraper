@@ -227,7 +227,7 @@ def get_initial_biggest_movers_data(to_date): #set date of how far back we want 
             
     past_to_date = False
     past_last_biggest_movers_date = False
-    i = 1
+    i = 0
     
     while past_to_date == False and past_last_biggest_movers_date == False:
         url = 'https://www.benzinga.com/author/lisa-levin?page=' + str(i)
