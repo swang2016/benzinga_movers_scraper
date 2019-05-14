@@ -70,4 +70,4 @@ In the Data folder you can also find pre-scraped data from 10/12/2015 - 05/03/20
 * `stock_headlines_cleaned.csv`: `stock_headlines.csv` with additional features generated from `stock_prices.csv` and `stock_volumes.csv`. Example code showing how this file was made is in `benzinga_clean.ipynb` in the Scripts folder.
 
 # Analysis #
-A sampling of some exploratory analysis done on this data can be found in `benzinga_exploratory_analysis.ipynb`, in the Scripts folder. A forthcoming Medium post will be based on this analysis. 
+A sampling of some exploratory analysis done on this data can be found in `benzinga_exploratory_analysis.ipynb`, in the Scripts folder. A Medium post linked here, https://medium.com/@steven_wang/exploring-stock-price-movements-after-major-events-8b35c318ba76, is based on this analysis. 
