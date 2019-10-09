@@ -15,6 +15,9 @@ In addition to scraping headlines, additional functions for obtaining historical
 
 Lastly, pre-scraped data recent as of 05/03/2019 is available in the Data folder.
 
+# Analysis #
+A sampling of some exploratory analysis done on this data can be found in `benzinga_exploratory_analysis.ipynb`, in the Scripts folder. A Medium post linked here, https://medium.com/@steven_wang/exploring-stock-price-movements-after-major-events-8b35c318ba76, is based on this analysis. 
+
 # Usage Examples #
 Examples of how to use the functions mentioned above are also shown in the Jupyter notebook, `benzinga_scrape.ipynb`, in the Scripts folder.
 
@@ -68,6 +71,3 @@ In the Data folder you can also find pre-scraped data from 10/12/2015 - 05/03/20
 * `stock_volumes.csv`: CSV of tickers and their volumes for the date range of 10/12/2015 - 05/03/2019
 * `filing_dates.csv`: CSV of tickers and their earnings filing dates for the date range of 10/12/2015 - 05/03/2019
 * `stock_headlines_cleaned.csv`: `stock_headlines.csv` with additional features generated from `stock_prices.csv` and `stock_volumes.csv`. Example code showing how this file was made is in `benzinga_clean.ipynb` in the Scripts folder.
-
-# Analysis #
-A sampling of some exploratory analysis done on this data can be found in `benzinga_exploratory_analysis.ipynb`, in the Scripts folder. A Medium post linked here, https://medium.com/@steven_wang/exploring-stock-price-movements-after-major-events-8b35c318ba76, is based on this analysis. 
